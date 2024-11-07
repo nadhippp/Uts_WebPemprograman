@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITSNU Pekalongan - Jurusan</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <!-- Sticky Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="../foto/logo-its.png" alt="Logo Kampus" height="30" class="d-inline-block align-text-top me-2">
+                ITSNU Pekalongan
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="jurusan.html">Jurusan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="fasilitas.html">Fasilitas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="profil.html">Profil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="kontak.html">Kontak</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Jurusan -->
+    <section id="jurusan" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Program Studi</h2>
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <div class="card h-100">
+                        <img src="../foto/foto4.jpg" class="card-img-top" alt="Teknik Informatika">
+                        <div class="card-body">
+                            <h5 class="card-title">S1 Teknik Informatika</h5>
+                            <p class="card-text">Program studi yang fokus pada pengembangan software, kecerdasan buatan, dan teknologi informasi.</p>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalTI">Detail</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card h-100">
+                        <img src="../foto/foto6.jpeg" class="card-img-top" alt="Teknologi Informasi">
+                        <div class="card-body">
+                            <h5 class="card-title">S1 Teknologi Informasi</h5>
+                            <p class="card-text">Program studi yang mempelajari penerapan teknologi informasi dalam berbagai sektor industri.</p>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalTIF">Detail</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card h-100">
+                        <img src="../foto/foto5.jpeg" class="card-img-top" alt="Kriya Batik">
+                        <div class="card-body">
+                            <h5 class="card-title">D3 Kriya Batik</h5>
+                            <p class="card-text">Program studi yang mengajarkan seni dan teknik pembuatan batik tradisional dan modern.</p>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalKB">Detail</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modals for Jurusan -->
+    <div class="modal fade" id="modalTI" tabindex="-1" aria-labelledby="modalTILabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalTILabel">S1 Teknik Informatika</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Program Studi S1 Teknik Informatika menawarkan kurikulum yang komprehensif meliputi:</p>
+                    <ul>
+                        <li>Pemrograman dan Pengembangan Software</li>
+                        <li>Kecerdasan Buatan dan Machine Learning</li>
+                        <li>Keamanan Siber</li>
+                        <li>Pengembangan Aplikasi Mobile dan Web</li>
+                        <li>Big Data dan Analitika</li>
+                    </ul>
+                    <p>Lulusan kami siap untuk berkarir di berbagai sektor IT yang berkembang pesat.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalTIF" tabindex="-1" aria-labelledby="modalTIFLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalTIFLabel">S1 Teknologi Informasi</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Program Studi S1 Teknologi Informasi berfokus pada:</p>
+                    <ul>
+                        <li>Manajemen Sistem Informasi</li>
+                        <li>Jaringan dan Infrastruktur IT</li>
+                        <li>Cloud Computing</li>
+                        <li>Internet of Things (IoT)</li>
+                        <li>IT Governance dan Manajemen Proyek</li>
+                    </ul>
+                    <p>Mahasiswa akan dipersiapkan untuk menjadi profesional IT yang mampu mengelola dan mengoptimalkan teknologi informasi dalam organisasi.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalKB" tabindex="-1" aria-labelledby="modalKBLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalKBLabel">D3 Kriya Batik</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Program Studi D3 Kriya Batik menawarkan pendidikan yang unik dalam seni batik, meliputi:</p>
+                    <ul>
+                        <li>Sejarah dan Filosofi Batik</li>
+                        <li>Teknik Pembuatan Batik Tradisional</li>
+                        <li>Inovasi Desain Batik Modern</li>
+                        <li>Manajemen Produksi Batik</li>
+                        <li>Pemasaran Produk Batik</li>
+                    </ul>
+                    <p>Lulusan akan memiliki keahlian untuk melestarikan dan mengembangkan seni batik Indonesia.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fasilitas -->
+    <section id="fasilitas" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Fasilitas Kampus</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <h3>Fasilitas Unggulan</h3>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Fasilitas</th>
+                                <th>Deskripsi</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Perpustakaan Digital</td>
+                                <td>Akses ke ribuan e-book dan jurnal internasional</td>
+                            </tr>
+                            <tr>
+                                <td>Laboratorium IT</td>
+                                <td>Dilengkapi dengan komputer dan software terkini</td>
+                            </tr>
+                            <tr>
+                                <td>Studio Batik</td>
+                                <td>Peralatan lengkap untuk produksi batik</td>
+                            </tr>
+                            <tr>
+                                <td>Pusat Riset</td>
+                                <td>Fasilitas penelitian modern untuk mahasiswa dan dosen</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <h3>Video Kampus</h3>
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://youtu.be/Jhsf8D0YpRE?si=lfYg7Ch5LjgQ_apz" title="Video Kampus" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial -->
+    <section id="testimonial" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Apa Kata Mereka</h2>
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text">"Belajar di sini sangat menyenangkan. Dosen-dosennya kompeten dan fasilitas kampus sangat mendukung."</p>
+                            <footer class="blockquote-footer">Andi, Mahasiswa Teknik Informatika</footer>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text">"Program Teknologi Informasi di sini benar-benar mempersiapkan saya untuk dunia kerja."</p>
+                            <footer class="blockquote-footer">Budi, Alumni Teknologi Informasi</footer>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text">"Saya belajar banyak tentang seni dan bisnis batik. Pengalaman yang luar biasa!"</p>
+                            <footer class="blockquote-footer">Citra, Mahasiswa Kriya Batik</footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontak -->
+    <section id="kontak" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Hubungi Kami</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <h3>Informasi Kontak</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Jl. Karangdowo No.9, Kemoren, Karangdowo, Kec. Kedungwuni, Kabupaten Pekalongan, Jawa Tengah 51173</p>
+                    <p><i class="fas fa-phone"></i> +62 895 4228 53693</p>
+                    <p><i class="fas fa-envelope"></i> itsnupkl@gmail.com</p>
+                    <div class="mt-4">
+                        <a href="https://www.facebook.com/ITSNUPEKAL0NGAN/" class="text-light me-3" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://wa.me/62895422853693" class="text-light me-3" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/itsnupekalongan/" class="text-light me-3" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/c/ITSNUPekalongan" class="text-light" target="_blank"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <h3>Lokasi Kampus</h3>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d71779.69810442431!2d109.62112745164815!3d-6.978711951916483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7021b4d2b766bb%3A0x40dacfe03dd23e15!2sITSNU%20Pekalongan!5e1!3m2!1sid!2sid!4v1730983713575!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>ITSNU Pekalongan</h5>
+                    <p>Membangun Masa Depan Melalui Pendidikan Berkualitas</p>
+                </div>
+                <div class="col-md-3">
+                    <h5>Link Cepat</h5>
+                    <ul class="list-unstyled">
+                        <a href="https://www.facebook.com/ITSNUPEKAL0NGAN/" class="text-light me-3" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://wa.me/62895422853693" class="text-light me-3" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/itsnupekalongan/" class="text-light me-3" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/c/ITSNUPekalongan" class="text-light" target="_blank"><i class="fab fa-youtube"></i></a>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Kontak</h5>
+                    <ul class="list-unstyled">
+                        <p><i class="fas fa-map-marker-alt"></i> Jl. Karangdowo No.9, Kemoren, Karangdowo, Kec. Kedungwuni, Kabupaten Pekalongan, Jawa Tengah 51173</p>
+                    <p><i class="fas fa-phone"></i> +62 895 4228 53693</p>
+                    <p><i class="fas fa-envelope"></i> itsnupkl@gmail.com</p>
+                    </ul>
+                </div>
+            </div>
+            <hr class="bg-light mt-4">
+            <div class="text-center">
+                <p>&copy; 2024 ITSNU Pekalongan. Hak Cipta Dilindungi.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="btn btn-primary btn-lg" title="Back to Top"><i class="fas fa-arrow-up"></i></button>
+
+      <!-- Chat Widget -->
+      <div id="chatWidget" class="chat-widget">
+        <button id="chatToggle" class="btn btn-primary"><i class="fas fa-comments"></i></button>
+        <div id="chatBox" class="chat-box" style="display: none;">
+            <div class="chat-header">
+                <h5>Chat dengan Kami</h5>
+                <button id="chatClose" class="btn-close"></button>
+            </div>
+            <div class="chat-body">
+                <p>Selamat datang di layanan chat ITSNU Pekalongan. Ada yang bisa kami bantu?</p>
+            </div>
+            <div class="chat-footer">
+                <input type="text" class="form-control" placeholder="Ketik pesan Anda...">
+                <button class="btn btn-primary"><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+    <script src="../script.js"></script>
+</body>
+</html>
